@@ -1,4 +1,3 @@
-YAML
 name: Deploy static content to Pages
 
 on:
