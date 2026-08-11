@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply text-[#1E2A38] bg-white antialiased overflow-x-hidden;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-[1200px] mx-auto px-6;
+  }
+
+  .btn-primary {
+    @apply inline-block px-7 py-3.5 rounded-full font-semibold text-[15px] no-underline transition-all cursor-pointer border-none bg-gradient-to-br from-[#1FA8A0] to-[#2CC4BB] text-white shadow-[0_4px_15px_rgba(31,168,160,0.35)] hover:-translate-y-0.5 hover:shadow-[0_8px_25px_rgba(31,168,160,0.45)];
+  }
+
+  .btn-secondary {
+    @apply inline-block px-7 py-3.5 rounded-full font-semibold text-[15px] no-underline transition-all cursor-pointer bg-transparent border-2 border-[#0B3D6E] text-[#0B3D6E] hover:bg-[#0B3D6E] hover:text-white;
+  }
+
+  .btn-white {
+    @apply inline-block px-7 py-3.5 rounded-full font-semibold text-[15px] no-underline transition-all cursor-pointer bg-white text-[#0B3D6E] shadow-[0_4px_15px_rgba(0,0,0,0.15)] hover:-translate-y-0.5;
+  }
+
+  .section-padding {
+    @apply py-[100px] max-md:py-[70px];
+  }
+
+  .section-tag {
+    @apply inline-block bg-[#1FA8A0]/10 text-[#1FA8A0] px-4 py-1.5 rounded-full text-[13px] font-semibold uppercase tracking-[1px] mb-4;
+  }
+
+  .section-title {
+    @apply text-[40px] max-md:text-[30px] font-extrabold text-[#0B3D6E] leading-[1.2] mb-4 tracking-[-0.5px];
+  }
+
+  .section-subtitle {
+    @apply text-[17px] text-[#5A6B7B] max-w-[700px] mb-12;
+  }
+}
