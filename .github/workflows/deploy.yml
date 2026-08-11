@@ -24,7 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-    - name: Set up Node
+      - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -41,7 +41,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist' # Mude para './build' ou './out' se necessário
+          path: './dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
