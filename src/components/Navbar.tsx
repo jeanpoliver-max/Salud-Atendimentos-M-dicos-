@@ -37,6 +37,13 @@ export default function Navbar() {
         </ul>
 
         <div className="flex items-center gap-4">
+          <a href="https://www.instagram.com/saludatendimentosmedicos/" target="_blank" rel="noopener noreferrer" className="text-[#1E2A38] hover:text-[#1FA8A0] transition-colors p-1" aria-label="Nosso Instagram">
+            <svg viewBox="0 0 24 24" className="shrink-0" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
           <a href="https://wa.me/5516997532025" target="_blank" rel="noopener noreferrer" className="btn-primary max-md:hidden">Solicitar Proposta</a>
           <button 
             className="md:hidden text-[#0B3D6E] p-1" 
