@@ -239,7 +239,7 @@ export default function FuturosMedicosApp() {
                 <div className="flex items-start gap-3 text-[14px] text-[#5A6B7B] mb-8">
                   <input type="checkbox" id="termos" required className="mt-1 w-4 h-4 rounded text-[#1FA8A0] focus:ring-[#1FA8A0]" />
                   <label htmlFor="termos" className="leading-snug">
-                    Declaro que sou estudante de medicina (ou recém-formado) e aceito a <a href="#" className="text-[#1FA8A0] font-medium hover:underline">Política de Privacidade</a> da Salud.
+                    Declaro que sou estudante de medicina (ou recém-formado) e aceito a <a href="/politica-de-privacidade.html" className="text-[#1FA8A0] font-medium hover:underline">Política de Privacidade</a> da Salud.
                   </label>
                 </div>
 
@@ -271,7 +271,7 @@ export default function FuturosMedicosApp() {
           <div className="flex flex-col md:flex-row items-center gap-4 text-[14px]">
             <a href="/" className="hover:text-white transition-colors">Site Institucional</a>
             <span className="hidden md:inline text-white/20">|</span>
-            <a href="#" className="hover:text-white transition-colors">Política de Privacidade</a>
+            <a href="/politica-de-privacidade.html" className="hover:text-white transition-colors">Política de Privacidade</a>
           </div>
         </div>
       </footer>

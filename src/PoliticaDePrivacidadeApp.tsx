@@ -14,9 +14,13 @@ export default function PoliticaDePrivacidadeApp() {
               referrerPolicy="no-referrer"
             />
           </a>
-          <a href="/" className="flex items-center gap-2 text-[#0B3D6E] font-medium hover:text-[#1FA8A0] transition-colors">
+          <a 
+            href="#" 
+            onClick={(e) => { e.preventDefault(); window.history.back(); }}
+            className="flex items-center gap-2 text-[#0B3D6E] font-medium hover:text-[#1FA8A0] transition-colors"
+          >
             <ArrowLeft size={20} />
-            <span className="hidden md:inline">Voltar ao site principal</span>
+            <span className="hidden md:inline">Voltar</span>
           </a>
         </nav>
       </header>
@@ -132,9 +136,9 @@ export default function PoliticaDePrivacidadeApp() {
             <p className="text-[12px] text-white/40 mt-1">Última atualização: Agosto de 2026</p>
           </div>
           <div className="flex flex-col md:flex-row items-center gap-4 text-[14px]">
-            <a href="/" className="hover:text-white transition-colors">Voltar ao site</a>
+            <a href="#" onClick={(e) => { e.preventDefault(); window.history.back(); }} className="hover:text-white transition-colors">Voltar à página anterior</a>
             <span className="hidden md:inline text-white/20">|</span>
-            <a href="/futuros-medicos.html" className="hover:text-white transition-colors">Comunidade Estudantes</a>
+            <a href="/" className="hover:text-white transition-colors">Página Inicial</a>
           </div>
         </div>
       </footer>
