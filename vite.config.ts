@@ -16,7 +16,8 @@ export default defineConfig(() => {
       rollupOptions: {
         input: {
           main: path.resolve(__dirname, 'index.html'),
-          futurosMedicos: path.resolve(__dirname, 'futuros-medicos.html')
+          futurosMedicos: path.resolve(__dirname, 'futuros-medicos.html'),
+          politicaPrivacidade: path.resolve(__dirname, 'politica-de-privacidade.html')
         }
       }
     },
