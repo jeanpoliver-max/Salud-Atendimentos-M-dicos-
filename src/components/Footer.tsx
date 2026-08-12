@@ -32,6 +32,8 @@ export default function Footer() {
               <a href="#servicos" className="text-white/70 hover:text-white transition-colors text-[14px]">Serviços</a>
               <a href="#diferenciais" className="text-white/70 hover:text-white transition-colors text-[14px]">Diferenciais</a>
               <a href="#contato" className="text-white/70 hover:text-white transition-colors text-[14px]">Contato</a>
+              <a href="/futuros-medicos.html" className="text-[#1FA8A0] font-medium hover:text-[#2CC4BB] transition-colors text-[14px]">Comunidade Salud</a>
+              <a href="/politica-de-privacidade.html" className="text-white/50 hover:text-white transition-colors text-[13px] mt-2">Política de Privacidade</a>
             </div>
           </div>
           
